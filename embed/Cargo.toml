@@ -1,0 +1,6 @@
+[package]
+name = "embed"
+version = "0.1.0"
+authors = ["Brian Larsen <balarsen@lanl.gov>"]
+
+[dependencies]
