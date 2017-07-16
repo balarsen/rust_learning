@@ -7,7 +7,7 @@ pub extern "C" fn process() {
     let handles: Vec<_> = (0..10).map(|_| {
         thread::spawn(|| {
             let mut x = 0;
-            for _ in 0..5_000_000 {
+            for _ in 0..5_000_000 { // this is a cool thing on large numbers
                 x += 1
             }
             x
