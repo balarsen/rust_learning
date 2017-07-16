@@ -4,3 +4,7 @@ version = "0.1.0"
 authors = ["Brian Larsen <balarsen@lanl.gov>"]
 
 [dependencies]
+
+[lib]
+name = "adder"
+crate-type = ["dylib", "rlib"]

@@ -1,4 +1,4 @@
-// The current convention is to use the tests module to hold your 
+// The current convention is to use the tests module to hold your
 // "unit-style" tests. Anything that just tests one small bit of
 // functionality makes sense to go here. But what about "integration-style"
 // tests instead? For that, we have the tests directory.
@@ -43,11 +43,6 @@ mod tests {
     }
 }
 
-fn add_two(a: i32) -> i32 {
+pub fn add_two(a: i32) -> i32 {
     a + 2
-}
-
-
-fn main() {
-    println!("Hello, world!");
 }
