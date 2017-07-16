@@ -53,6 +53,15 @@ mod tests {
     }
 }
 
+/// This function adds two to its argument.
+///
+/// # Examples
+///
+/// ```
+/// use adder::add_two;
+///
+/// assert_eq!(4, add_two(2));
+/// ```
 pub fn add_two(a: i32) -> i32 {
     a + 2
 }
