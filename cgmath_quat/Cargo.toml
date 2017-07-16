@@ -1,0 +1,8 @@
+[package]
+name = "cgmath_quat"
+version = "0.1.0"
+authors = ["Brian Larsen <balarsen@lanl.gov>"]
+
+[dependencies]
+cgmath="*"
+assert_approx_eq = "~1"
