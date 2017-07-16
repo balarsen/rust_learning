@@ -1,7 +1,6 @@
 [package]
-name = "cgmath"
+name = "cgmath_quat"
 version = "0.1.0"
 authors = ["Brian Larsen <balarsen@lanl.gov>"]
 
 [dependencies]
-cgmath="*"
