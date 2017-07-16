@@ -3,6 +3,16 @@
 // functionality makes sense to go here. But what about "integration-style"
 // tests instead? For that, we have the tests directory.
 
+
+//! The `adder` crate provides functions that add numbers to other numbers.
+//!
+//! # Examples
+//!
+//! ```
+//! assert_eq!(4, adder::add_two(2));
+//! ```
+
+
 #[cfg(test)]
 mod tests {
     use super::*;
