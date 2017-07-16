@@ -1,0 +1,6 @@
+[package]
+name = "cgmath"
+version = "0.1.0"
+authors = ["Brian Larsen <balarsen@lanl.gov>"]
+
+[dependencies]
